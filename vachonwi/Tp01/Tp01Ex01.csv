@@ -1,0 +1,23 @@
+#,longPiece,largPiece,plancheLong,plancheLarg,plancheTotal,nbBoites,plancheSurplus,certificat,totalBoite,totPayer,economies,Console
+,,,,,,,,,,,,"Longueur de la pièce (po) : "
+,192,,,,,,,,,,,
+,,,,,,,,,,,,"Largeur de la pièce (po) : "
+,,132,,,,,,,,,,
+,,,7,,,,,,,,,
+,,,,15,,,,,,,,
+,,,,,105,,,,,,,
+,,,,,,9,,,,,,
+,,,,,,,3,,,,,
+,,,,,,,,,,,,-------------------------
+,,,,,,,,,,,,Vous aurez besoin de 9 boîtes de 12 planches.
+,,,,,,,,,,,,Vous aurez 3 planches de surplus.
+,,,,,,,,,,,,-------------------------
+,,,,,,,,,,,,"Indiquez la valeur du certificat cadeau : "
+,,,,,,,,25,,,,
+,,,,,,,,,82.77,,,
+,,,,,,,,,,,16.554,
+,,,,,,,,,66.216,,,
+,,,,,,,,,,41.216,,
+,,,,,,,,,,,,-------------------------
+,,,,,,,,,,,,Total à payer : 41.22$
+,,,,,,,,,,,,Economies réalisées : 16.55$

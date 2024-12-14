@@ -1,0 +1,10 @@
+#,etoile 1,"etoile 2 ","etoile 3 ",etoile 4,total etoile,"total vote ",etoile moyen,console
+,,,,,,,,"Indiquer le nombre de votes pour 1, 2, 3 et 4 étoiles : "
+,16,,,,,,,
+,,25,,,,,,
+,,,33,,,,,
+,,,,16,,,,
+,,,,,,90,,
+,,,,,229,,,
+,,,,,,,,
+,,,,,,,2.5444456,

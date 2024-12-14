@@ -1,0 +1,22 @@
+{
+    "java.dependency.packagePresentation": "hierarchical",
+    "[java]": { "editor.defaultFormatter": "redhat.java" },
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "java.inlayHints.parameterNames.enabled": "all",
+    "java.checkstyle.version": "10.12.2",
+    "java.checkstyle.configuration": "lib/check420mo.xml",
+    "java.checkstyle.modules": [ "lib/sevntu-checks-1.44.1.jar" ],
+    "java.project.sourcePaths": [ "." ],
+    "csv-edit.readOption_comment": "",
+    "csv-edit.writeOption_comment": "",
+    "csv-edit.showColumnHeaderNamesWithLettersLikeExcel": true,
+    "files.hotExit": "off",
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.languageDetection": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.untitled.hint": "hidden",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {"source": "PowerShell","icon": "terminal-powershell","args": ["-NoExit", "/c", "chcp 1252"]},
+        "Command Prompt": {"path": ["${env:windir}\\Sysnative\\cmd.exe","${env:windir}\\System32\\cmd.exe"], "args": ["/K", "chcp 1252"], "icon": "terminal-cmd" },
+    }
+}

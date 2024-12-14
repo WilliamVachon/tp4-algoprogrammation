@@ -1,0 +1,8 @@
+4 essais minimum
+1. choisir le nombre 8. Si plus haut alors entre 9 et 15 et sinon entre 1 et 7
+2. choisir le milieu des nouveaux choix donner. 12 ou 4
+3. repeater la meme etapes 
+4. il reste maintenant qu'un chiffre possible
+
+
+n^4 = 16 // vu qu'on a moins de 16 chiffres alors toutes les possibilite sont trouvables.

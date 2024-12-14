@@ -1,0 +1,19 @@
+NB_MAX,MAX_ESSAI,nbUsager,nbADeviner,numEssai,Console,
+15,,,,,
+,3,,,,
+,,,,0,
+,,,9,,
+,,,,,Vous devez deviner le nombre secret entre 1 et 15.
+,,,,,Le nombre de tentatives est limité à 3.
+,,,,1,
+,,,,,Tentative #1:
+,,7,,,
+,,,,,Plus grand
+,,,,2,
+,,,,,Tentative #2:
+,,11,,,
+,,,,,Plus petit
+,,,,3,
+,,,,,Tentative #3:
+,,9,,,
+,,,,,SUPER! Vous avez réussi!

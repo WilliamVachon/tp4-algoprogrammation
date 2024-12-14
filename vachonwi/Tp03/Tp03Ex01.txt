@@ -1,0 +1,28 @@
+ALGORITHME Tp03Ex01
+CONSTANTES
+NM_MAX = 15
+MAX_ESSAI = 3
+
+VARIABLES
+nbUsager, nbADeviner, numEssai
+
+DEBUT
+numEssai ← 0
+nbADeviner ← 9
+AFFICHER("Vous devez deviner le nombre secret entre 1 et " + NB_MAX + ".")
+AFFICHER("Le nombre de tentatives est limité à " + MAX_ESSAI + ".")
+FAIRE 
+numEssai++
+AFFICHER("Tentative #" + numEssai + " : ")
+nbUsager ← clavier.nextInt()
+SI (nbUsager < nbADeviner) ALORS
+AFFICHER("Plus grand")
+SINON SI(nbUsager > nbADeviner) ALORS
+AFFICHER("Plus petit")
+TANTQUE (nbUsager != nbADeviner && numEssai < MAX_ESSAI)
+SI (nbUsager == nbADeviner) ALORS
+AFFICHER("SUPER! Vous avez reussi!")
+SINON 
+AFFICHER("DÉSOLÉ, vous avez dépassé le nombre de tentatives alloué.")
+AFFICHER("Le nombre à découvrir était " + nbADeviner + ".")
+FIN

@@ -1,0 +1,242 @@
+<mxfile host="65bd71144e">
+    <diagram id="oprl2iBq9hlYE1SXqq5N" name="Page-1">
+        <mxGraphModel dx="482" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="355" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Début" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="10" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Variables:&lt;br&gt;longPiece, largPiece, plancheLong, plancheLarg, plancheTotal, nbBoites, plancheSurplus, certificat, totalBoite, totPayer, economies" style="rounded=0;whiteSpace=wrap;html=1;align=center;horizontal=1;direction=north;" vertex="1" parent="1">
+                    <mxGeometry x="125" y="250" width="460" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="Afficher:&lt;br&gt;&quot;Longueur de la pièce (po) : &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=20;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="400" width="290" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="355" y="720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Lire:&lt;br&gt;longPiece" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="550" width="290" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="355" y="900" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Afficher:&lt;br&gt;&quot;Largeur de la pièce (po) : &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=12.5;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="730" width="290" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="355" y="1040" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Lire:&lt;br&gt;largPiece" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="900" width="290" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="1190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="plancheLong&amp;nbsp; ← longPiece / LONG_PLANCHE +1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="1040" width="300" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Constantes:&lt;br&gt;LONG_PLANCHE = 30, LARG_PLANCHE = 9, PLANCHES_PAR_BOITE = 12, PRIX_BOITE = 27.59f,&amp;nbsp;RABAIS_PCT = 0.20f" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="120" width="430" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="1350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="plancheLarg&amp;nbsp; ← largPiece / LARG_PLANCHE +1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="1190" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1150" y="320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="350" y="1520"/>
+                            <mxPoint x="350" y="1560"/>
+                            <mxPoint x="530" y="1560"/>
+                            <mxPoint x="630" y="1560"/>
+                            <mxPoint x="640" y="640"/>
+                            <mxPoint x="640" y="210"/>
+                            <mxPoint x="640" y="110"/>
+                            <mxPoint x="800" y="110"/>
+                            <mxPoint x="830" y="110"/>
+                            <mxPoint x="1100" y="110"/>
+                            <mxPoint x="1150" y="110"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="plancheTotal ←&amp;nbsp;plancheLong * plancheLarg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="1360" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32" target="34">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1145" y="580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="nbBoites ←&amp;nbsp;plancheTotal / PLANCHES_PAR_BOITE + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="320" width="330" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="34" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="plancheSurplus ←&amp;nbsp; PLANCES_PAR_BOITE - plancheTotal % PLANCHES_PAR_BOITE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="490" width="330" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1145" y="970" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Afficher:&lt;br&gt;&quot;-------------------------&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="630" width="330" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="38" target="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1145" y="1210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Afficher:&lt;br&gt;&quot;Vous aurez besoin de &quot; + nbBoites + &quot; boîtes de &quot; + PLANCHES_PAR_BOITE + &quot; planches.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="800" width="355" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="43">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1134.9999999999998" y="1270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="Afficher:&lt;br&gt;&quot;Vous aurez &quot; + plancheSurplus + &quot; planches de surplus.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="955" y="1000" width="360" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="43" target="45">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1129.9999999999998" y="1480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Afficher:&lt;br&gt;&quot;-------------------------&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="955" y="1220" width="350" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2110" y="510" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1130" y="1760"/>
+                            <mxPoint x="1550" y="1760"/>
+                            <mxPoint x="1560" y="250"/>
+                            <mxPoint x="2110" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="Afficher:&lt;br&gt;&quot;Indiquez la valeur du certificat cadeau : &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="950" y="1440" width="360" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="47" target="49">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2105" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Lire:&lt;br&gt;certificat" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1980" y="525" width="250" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="49" target="51">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2105" y="1040" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="totalBoite ← PRIX_BOITE * nbBoites" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1970" y="800" width="270" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="51" target="53">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2105" y="1290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="economies ←&amp;nbsp; totalBoite * RABAIS_PCT&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1970" y="1060" width="270" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="53" target="55">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2105" y="1520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="totalBoite ←&amp;nbsp;totalBoite - economies&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1970" y="1290" width="270" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;" edge="1" parent="1" source="55">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2100" y="1820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="totPayer ←&amp;nbsp;totalBoite - certificat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1970" y="1530" width="270" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="59">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2100" y="1820" as="sourcePoint"/>
+                        <mxPoint x="2870" y="530" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2475" y="1820"/>
+                            <mxPoint x="2475" y="1020"/>
+                            <mxPoint x="2475" y="370"/>
+                            <mxPoint x="2475" y="300"/>
+                            <mxPoint x="2870" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="59" target="61">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2870" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="Afficher:&lt;br&gt;&quot;-------------------------&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="2730" y="450" width="280" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="61" target="63">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2867.5" y="880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="Afficher:&lt;br&gt;&quot;Total à payer : &quot; + totPayer + &quot;$&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="2720" y="670" width="295" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="63" target="65">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2865" y="1090" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="Afficher:&lt;br&gt;&quot;Economies réalisées : &quot; + economies + &quot;$&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="2710" y="880" width="310" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="2725" y="1110" width="280" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

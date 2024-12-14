@@ -1,0 +1,49 @@
+ALGORITHME MesureTriangle
+CONSTANTES
+   EXPOSANT = 2
+VARIABLES
+     pointAx, pointBx, pointCx, pointAy, pointBy, pointCy
+     segmentBCdoubley,segmentBC, segmentBCapresexposantx,totalBCdesxety, segmentBCdoublex, segmentBCapresexposanty
+     segmentABdoubley, segmentAB, segmentABapresexposantx,segmentABapresexposanty,segmentABdoublex,totalABdesxety
+     segmentAC, segmentACapresexposantx, segmentACapresexposanty, segmentACdoublex, segmentACdoubley, totalACdesxety
+     perimetredutriangle
+     p, aireavantsqrt, aireabc
+DÉBUT
+    AFFICHER("Entrez les positions en x et y du premier point (A) :")
+    LIRE(pointAx)
+    LIRE(pointAy)
+    AFFICHER("Entrez les positions en x et y du deuxième point (B) :")
+    LIRE(pointBx)
+    LIRE(pointBy)
+    AFFICHER("Entrez les positions en x et y du troisième point (C) : ")
+    LIRE(pointCx)
+    LIRE(pointCy)
+    AFFICHER("-------------------------")
+    segmentABdoubley ← (pointBy - pointAy)
+    segmentABapresexposanty ← Math.pow(segmentABdoubley, EXPOSANT)
+    segmentABdoublex ← (pointBx - pointAx)
+    segmentABapresexposantx ← Math.pow(segmentABdoublex, EXPOSANT)
+    totalABdesxety ← (segmentABapresexposantx + segmentABapresexposanty)
+    segmentAB ← Math.sqrt(totalABdesxety)
+    AFFICHER("Mesure du segment AB :" + segmentAB)
+    segmentBCdoubley ← (pointCy - pointBy)
+    segmentBCapresexposanty ← Math.pow(segmentBCdoubley, EXPOSANT)
+    segmentBCdoublex ← (pointCx - pointBx)
+    segmentBCapresexposantx ← Math.pow(segmentBCdoublex, EXPOSANT)
+    totalBCdesxety ← (segmentBCapresexposantx + segmentBCapresexposanty)
+    segmentBC ← Math.sqrt(totalBCdesxety)
+    AFFICHER("Mesure du segment BC :" + segmentBC)
+    segmentACdoubley ← (pointCy - pointAy)
+    segmentACapresexposanty ← Math.pow(segmentACdoubley, EXPOSANT)
+    segmentACdoublex ← (pointCx - pointAx)
+    segmentACapresexposantx ← Math.pow(segmentACdoublex, EXPOSANT)
+    totalACdesxety ← (segmentACapresexposantx + segmentACapresexposanty)
+    segmentAC ← Math.sqrt(totalACdesxety)
+    AFFICHER("Mesure du segment AC :" + segmentAC)
+    perimetredutriangle ← (segmentAB + segmentAC + segmentBC);
+    AFFICHER("Périmètre du triangle ABC :" + perimetredutriangle);
+    p ← ((segmentAB + segmentAC + segmentBC) / 2);
+    aireavantsqrt ← (p * (p - segmentAB) * (p - segmentAC) * (p - segmentBC));
+    aireabc ← Math.sqrt(aireavantsqrt);
+    AFFICHER("Aire du triangle ABC :" + aireabc);
+FIN
