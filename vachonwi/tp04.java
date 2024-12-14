@@ -100,6 +100,7 @@ public class tp04 {
 		// des cases, demander la position d'ajout au joueur, jusqu'à ce qu'il
 		// entre une position valide, et écrire la tuile dans la case.
 		// Indice : Les positions du joueur débutent à 1 alors que votre tableau débute à 0
+        
         int[] cases = new int[NB_CASES];
             for (int i = 0; i < NB_CASES; i++) {
                 cases[i] = -1;
